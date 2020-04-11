@@ -5,19 +5,21 @@
       <div class="form-group">
         <div class="col-md-12">
           <div class="input-group mb-3">
-            <input type="text" class="form-control bg-transparent col-sm-6 offset-3" placeholder="Name"
+            <input type="text" class="form-control bg-gray col-sm-9 offset-3" placeholder="Name"
               aria-label="user" aria-describedby="basic-addon2" name="username" [(ngModel)]="username">
             <div class="input-group-append">
-              <button class="btn btn-warning" type="submit">Search</button>
+              <button class="btn btn-primary" type="submit">Search</button>
             </div>
           </div>
         </div>
       </div>
     </form><br><br>
-    <div class="description">
-      <p>GITHUB-FINDER is a web application than finds the profile of the Github users. It displays users profile
-        biography i.e repositories, followers, following and avater.</p>
+    <div class="row">
+    <div class="describe">
+      <p>Github-Finder is a web application than finds the profile of the Github users. It displays users
+        biography or descriptions, repositories, followers, following and avater.</p>
     </div>
+  </div>
     <br><br>
     <div *ngIf="profile" class="prof">
       <div class="col-sm-8">
