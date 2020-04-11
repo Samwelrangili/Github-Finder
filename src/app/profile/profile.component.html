@@ -39,19 +39,16 @@
           <div>
             <hr>
             <p class="buton">
-              <span class="span" class="btn btn-warning"> {{profile.followers}} Followers</span>&nbsp;
-
-              <span class="span" class="btn btn-primary"> {{profile.following}} Following </span>&nbsp;
-
-              <span class="span" class="btn btn-success"> {{profile.public_gists}} gists</span>&nbsp;
-
-              <span class="span" class="btn btn-danger"> {{profile.public_repos}} Repositories</span>
+              <span class="span" class="btn btn-success"> {{profile.followers}} Followers</span><br><br>
+              <span class="span" class="btn btn-info"> {{profile.following}} Following </span><br><br>
+              <span class="span" class="btn btn-warning"> {{profile.public_gists}} gists</span><br><br>
+              <span class="span" class="btn btn-danger"> {{profile.public_repos}} Repositories</span><br>
             </p>
             <hr>
             <hr>
 
             <p>
-              <a href="{{profile.html_url}}" target="_blank" class=" view  btn btn-success">View profile on github</a>
+              <a href="{{profile.html_url}}" target="_blank" class=" view  btn btn-info">View profile on github</a>
 
             </p>
             <hr>
@@ -62,24 +59,23 @@
     </div>
   </div>
   <div class="container" id="repos">
-    <h1>Repositories.</h1>
+    <h1>REPOSITORIES.</h1>
     <hr>
-
     <div class="row">
       <div class="col-md-12">
         <div class=" col-sm-10card-columns">
           <div class="card" *ngFor="let repos of repos">
             <div class="card">
               <div class=" text-center" class="card-header">
-                <h2 id="Rename">{{repos.name}}</h2>
+                <h2 id="name">{{repos.name}}</h2>
               </div>
               <div class="card-body">
-                <p id="deco">
+                <p id="description">
                   {{repos.description}}
                 </p>
               </div>
-              <a href="{{repos.html_url}}" class="text-align-center" class="card-footer" target="_blank"
-                class="view btn btn-outline-info">View project source</a>
+              <a href="{{repos.html_url}}" class="text-align-center" class="source" target="_blank"
+                class="view btn btn-outline-warning">View project source</a>
               <div>
               </div>
             </div>
