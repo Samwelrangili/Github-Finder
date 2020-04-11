@@ -1,21 +1,10 @@
-<<<<<<< HEAD
-import { Injectable } from '@angular/core';
-=======
- 
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
->>>>>>> cce416c8955ca2d0b1bdc3326fd3b93f7dae861c
 
 @Injectable({
   providedIn: 'root'
 })
-<<<<<<< HEAD
-export class ProfileService {
-
-  constructor() { }
-}
-=======
 
 
 export class ProfileService {
@@ -24,8 +13,8 @@ private client_id = 'af93ef785cfb010769d2';
 private client_secret = 'ceaf90465ea45b00e4a578e9a5fed40f21f37110';
 
 constructor(private http:HttpClient) {
-console.log("service is now ready!");
-this.username = 'andrew1440';
+console.log("");
+this.username = 'Samwelrangili';
    }
 
    getProfileInfo(){
@@ -43,4 +32,3 @@ this.username = 'andrew1440';
   }
 
 }
->>>>>>> cce416c8955ca2d0b1bdc3326fd3b93f7dae861c
