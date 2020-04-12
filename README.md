@@ -20,7 +20,7 @@ Samwel .A.Rangili
 * Phone: 0758597216
 
 # Live link
-* https://samwelrangili.github.io/Quote/
+* 
 # GithubFinder
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
