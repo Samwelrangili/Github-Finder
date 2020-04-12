@@ -1,5 +1,5 @@
 .container{
-    
+    background-image: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 .describe{
     text-align: center;
@@ -11,5 +11,8 @@
     font-size: 50px;
 }
 .col-sm-2{
+    text-align: center;
+}
+.img{
     text-align: center;
 }
